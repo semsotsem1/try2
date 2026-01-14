@@ -1,5 +1,8 @@
 # try2
-```mermaid
+
+### Architecture
+
+``` mermaid
 `graph` TB
     Client[Client / Load Test Script] -->|HTTP| API[FastAPI API]
     API --> DB[(SQLite DB)]
